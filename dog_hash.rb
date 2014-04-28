@@ -3,7 +3,7 @@ DOG = {
     preferences: [{name: "Harleigh"}],
     names: ["Harleigh", "brown"]
   },
-  harleigh: {
+  "harleigh" => {
     preferences: [{
                     favorite_toy: "frog"
                   }],
@@ -11,12 +11,12 @@ DOG = {
       sport: ["frisbee", "hiking"]
     }
   },
-  trixie: {
+  "trixie" => {
     preferences: [{
                     favorite_food: "steak"
                   }],
-  information: {
-    sport: [:swimming, :prancing]
-  }
+    information: {
+      sport: [:swimming, :prancing]
+    }
   }
 }
